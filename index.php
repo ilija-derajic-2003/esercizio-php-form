@@ -11,10 +11,26 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  
-	
-	<h1>Hello, world!</h1>
-	<body background="http://i.imgur.com/4obrSTa.png">
+    <div class="container">
+	  	<form>
+	  	  <div class="form-group">
+			    <label for="nome">Nome</label>
+			    <input type="text" class="form-control" id="nome" placeholder="Inserisci il tuo nome">
+	  		</div>
+
+	  		<div class="form-group">
+			    <label for="Cognome">Cognome</label>
+			    <input type="text" class="form-control" id="Cognome" placeholder="Inserisci il tuo Cognome">
+	  		</div>
+	  	
+	   		<div class="form-group">
+			    <label for="indirizzo">indirizzo</label>
+			    <textarea class="form-control" id="indirizzo" rows="3"></textarea>
+	  		</div>
+
+	  		<button type="submit" class="btn btn-primary">invio</button>
+			</form>
+  	</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
