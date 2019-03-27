@@ -44,7 +44,16 @@
 	  		<button type="submit" class="btn btn-primary">invia</button>
 			</form>
 
-  	</div>
+			<div class="alert alert-primary" role="alert">
+				<ul>
+					<?php
+					foreach ($_POST as $key => $value) {
+						print "<li>$value</li>";
+					}
+					?>
+				</ul>
+			</div>
+  	</div> 
 
 
     <!-- Optional JavaScript --
